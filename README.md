@@ -16,7 +16,7 @@ Data gives us the following features:
 **Attributes ▶**
 
 ---
-**Zomato Restaurant**
+**Zomato Restaurant metadata**
 * Name : Name of Restaurants
 
 * Links : URL Links of Restaurants
