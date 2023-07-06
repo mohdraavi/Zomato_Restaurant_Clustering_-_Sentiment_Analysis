@@ -7,6 +7,7 @@ This could help in clustering the restaurants into segments. Also the data has v
 Data could be used for sentiment analysis. Also the metadata of reviewers can be used for identifying the critics in the industry.
 
 Datasets: In this analysis we have used the following datasets.
+
 **1.Zomato Restaurant Reviews dataset**
 
 **1.Zomato Restaurants metedata dataset**
@@ -51,22 +52,17 @@ ALGORITHMS:
 
 1.K-Means Clustering
 
+unsupervised machine learning algorithm used for clustering data points into groups or clusters based on their similarity. The goal of K-means clustering is to divide a dataset into K distinct clusters, where each data point belongs to the cluster with the nearest mean value.
+
 2.Logistic Regression
 
-3.Xgboost
-
-1.k-Means Clustering
-
-
-2.Logistic Regression:(With and Without Hyper-parameter Tunning)
 
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
 
 
+4.Xgboost:(Ensemble technique based on boosting)
 
-
-
-4.Xgboost:(Ensemble technique based on boostingfbtos                                 e)
+XGBoost is based on the concept of gradient boosting, which involves building an ensemble of weak prediction model and iteratively improving their predictions by minimizing a loss function through gradient descent.
 
 
 Model Performance:
