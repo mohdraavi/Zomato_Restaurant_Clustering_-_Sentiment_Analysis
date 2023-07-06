@@ -8,6 +8,7 @@ Data could be used for sentiment analysis. Also the metadata of reviewers can be
 
 Datasets: In this analysis we have used the following datasets.
 **1.Zomato Restaurant Reviews dataset**
+
 **1.Zomato Restaurants metedata dataset**
 
 Data gives us the following features:
@@ -44,65 +45,7 @@ Data gives us the following features:
 
 Steps involved:
 
-Exploratory Data Analysis:
 
-After loading the datasets, various analysis was performed by comparing our target variable CHD with other independent variables. We performed various analysis like feature engineering, feature transformation, handling outliers, analyzing categorical and numerical data, Understanding important features, etc.
-
-Feature Engineering:
-
-1)Handling missing values:
-
-While exploring our project we keep in mind to handle missing values and fill them with their respective mean and modes.
-
-2)Duplicate values treatment:
-
-There were no duplicate values in our dataset
-
-3)Outliers:
-
-Outliers plays an important role for any machine learning project. In our project we had outliers at certain attributes. Instead of deleting them we imputed the outliers.
-
-EDA Visualization:
-
-EDA Visualization is performed by using seaborn libraries with various plots like histogram, violin plot, bar plot, etc. We have used these plots for describing correlations, for relationship of sex and person who is smoking or not, other attributes and their affect on target variable CHD. Visualizations comes in handy to do Univariate-variate and multi-variate analysis.
-
-Label Encoding:
-
-Machine Learning is performed only on numerical values, so there might be some column which do not have numerical values. Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering. We performed this technique on attributes sex and is smoking.
-
-Feature Selection:
-
-Feature selection or variable selection is the process of selecting a subset of relevant features or variables from the total features of a level in a data set to build machine learning algorithms.
-
-Advantages of selecting features:
-
-There are various advantages of feature selection process. These are as follows:
-
-Improved accuracy
-
-Simple models are easier to interpret.
-
-Shorter training times
-
-Enhanced generalization by reducing Overfitting
-
-Easier to implement by software developers
-
-Reduced risk of data errors by model use
-
-Variable redundancy
-
-Bad learning behaviour in high dimensional spaces
-
-Feature Splitting and Scaling
-
-Feature splitting and scaling were done using variance threshold and chi-square tests which gave us better idea of our attributes and helped eliminating additional features.
-
-Balancing target Variable
-
-Since our target variable CHD was unbalanced, we used SMOTE to balance it.
-
-SMOTE (Synthetic Minority Oversampling Technique) consists of synthesizing elements for the minority class, based on those that already exist. It works randomly picking a point from the minority class and computing the k-nearest neighbors for this point. The synthetic points are added between the chosen point and its neighbors.
 
 ALGORITHMS:
 
@@ -112,18 +55,16 @@ ALGORITHMS:
 
 3.Xgboost
 
+1.k-Means Clustering
 
-1.Logistic Regression:(With and Without Hyper-parameter Tunning)
+
+2.Logistic Regression:(With and Without Hyper-parameter Tunning)
 
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
 
-2.K-nearest Neighbour: (With and Without Hyper-parameter Tunning)
 
-The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and regression problems. It's easy to implement and understand, but has a major drawback of becoming significantly slows as the size of that data in use grows.
 
-3.Decision Tree: (With and Without Hyper-parameter Tunning)
 
-Decision trees help you to evaluate your options. Decision Trees are excellent tools for helping you to choose between several courses of action. They provide a highly effective structure within which you can lay out options and investigate the possible outcomes of choosing those options.
 
 4.Xgboost:(Ensemble technique based on boostingfbtos                                 e)
 
@@ -133,19 +74,6 @@ Model Performance:
 
 Logistic Regression:
 
-For logistic regression the accuracy was 85.84 which increased to 85.98 after hyper parameter Tunning.
-
-K-nearest Neighbors:
-
-For K- nearest neighbors the accuracy was 84.36 which increased to 85.69 after hyper parameter Tunning.
-
-Decision Tree:
-
-For Decision Tree the accuracy was 74.92 which increased to 85.69 after hyper parameter Tunning.
-
-Random Forest Classifier:
-
-For Random Forest Classifier the accuracy was 84.80.
 
 Conclusion:
 Clustering and sentiment analysis were performed on a dataset of customer reviews for the food delivery service Zomato. The purpose of this analysis was to understand the customer's experience and gain insights about their feedback.
