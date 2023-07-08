@@ -57,19 +57,34 @@ Steps involved:
 * Story telling and experimenting with charts like wordcloud,heatmap,
 * Data Preprocessing
 A. 1. Missing values handling
+
   2. Duplicate values handling
+
   3. Outliers handling using isolation forest
+
+
   4. Categorical Encoding using one-hot encoding
+
   5. Textual data preprocessing
+   
     a. Expand contraction
+
     b. Lower Casing
+
     c. Removing URL & digits
+
     d. Removing stop words and white spaces
+
     e. Rephrase text
+
     f. Tokenization
+
     g. Text normalization
+
     h. POS
+
     I. Text Vectorization
+
   6. Feature Manipulation & Selection
   7. Data Transformation
   8. Data Scaling
