@@ -56,7 +56,9 @@ Steps involved:
 * Data visualization
 * Story telling and experimenting with charts like wordcloud,heatmap,
 * Data Preprocessing
-A. 1. Missing values handling
+A.
+
+ 1. Missing values handling
 
   2. Duplicate values handling
 
